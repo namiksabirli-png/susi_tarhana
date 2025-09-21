@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Tarhana'dan Suşi'ye: Formun İnceliği, Hayatın Ahlâkı — A4</title>
+<style>
+  :root{
+    --page-w: 21cm;  /* A4 genişlik */
+    --page-h: 29.7cm;/* A4 yükseklik */
+    --page-pad: 2.2cm;/* sayfa iç boşluğu */
+    --ink: #111;
+    --heading: #8b0000;
+  }
+  /* Sayfa arka planı */
+  html, body{height:100%;}
+  body{
+    margin:0;
+    background:#e9ecef; /* sayfa dışı gri zemin */
+    color:var(--ink);
+    font-family: Georgia, serif;
+    line-height:1.75;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* A4 sayfa görünümü */
+  .page{
+    width: var(--page-w);
+    height: var(--page-h);
+    margin: 18px auto; /* ortalama */
+    background:#fff;
+    box-shadow: 0 10px 24px rgba(0,0,0,.15);
+    padding: var(--page-pad);
+    box-sizing: border-box;
+    overflow: auto; /* içerik taşarsa sayfa içinde kaydır */
+    border: 1px solid rgba(0,0,0,.06);
+  }
+
+  h1{
+    font-family: "Trebuchet MS", system-ui, -apple-system, Segoe UI, sans-serif;
+    color: var(--heading);
+    font-size: clamp(20px, 3.8vw, 32px);
+    line-height:1.25;
+    margin: .1rem 0 1rem;
+    letter-spacing: .2px;
+  }
+  p, li{font-size: 16.5px;}
+  ul{margin:.2rem 0 1rem 1.4rem;}
+  hr{border:0; height:1px; background:#ddd; margin:16px 0;}
+  footer{color:#666; font-size:13px; margin-top:12px;}
+
+  /* Baskı ayarları */
+  @media print{
+    @page{ size: A4; margin: 2cm; }
+    body{ background:#fff; }
+    .page{
+      width: auto; height: auto; margin: 0; box-shadow:none; border:0; padding:0;
+    }
+    .page > .print-container{ padding: 0; }
+  }
+
+  /* Başlık satırı ve meta alanı (opsiyonel) */
+  .header{
+    display:flex; align-items:flex-start; justify-content:space-between; gap:12px; margin-bottom: 8px;
+  }
+  .meta{ color:#666; font-size: 12.5px; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, "Trebuchet MS", sans-serif; }
+</style>
+</head>
+<body>
+
+<div class="page">
+  <div class="print-container">
+    <header class="header">
+      <h1><strong>Tarhana'dan Suşi'ye: Formun İnceliği, Hayatın Ahlâkı</strong></h1>
+      <div class="meta">© 2025 • A4 düzen • Okuma süresi ~6-8 dk</div>
+    </header>
+
+    <p>Geçtiğimiz zaman diliminde <strong>Dücane Cündioğlu</strong> bir videosunda, “tarhana/dürüm” gibi gündelik sembollerle “muhafazakâr aydın tipini” iğneleyen açıklamalarda bulundu. Zeki ve eğitimli ama düşüncesini hayatına (özellikle <strong>etik–estetik olgunluğa</strong> ve <strong>gündelik nezakete</strong>) dönüştürememiş kişi olarak vurguladı bu insanları. “<strong>Eşini bir kere yemeğe bile götürmemiştir.</strong>” cümlesini de kendisinin eksik gördüğü bu dönüşümsüzlüğü görünür kılmak için provoke bir imge olarak kullandı. Sözün özü bu kişilerde “<strong>Kültür ve inanç söylemi var ama davranış düzeyinde incelme yok.</strong>” demeye getirdi.</p>
+
+    <p><strong>Bu polemikle ilgili iki tespitim olacak:</strong></p>
+    <ul>
+      <li><strong>Sembolik eleştiri:</strong> “Tarhana/dürüm” meselesi damak tadı değil; sınıfsal-kültürel işaretlere yapışıp özden kopan aydın tipini hicvetmek için kullanılıyor. (Zaten Sayın Cündioğlu’nun bu konuyla ilgili <strong>ironi</strong> vurgusu ve bağlam açıklamaları var.)</li>
+      <li><strong>İroniyle sarsma:</strong> Bilinçli bir ironi/abartı var; amaç rencide etmekten çok, “kültür konuşup incelik yaşamayan” aydındaki çelişkiyi çarpmak. (Tarhana polemiği sonrası “<strong>bağlam çöküşü</strong>” uyarıları da bunun parçası.)</li>
+    </ul>
+
+    <p>Sayın Cündioğlu’nun muhafazakâr aydın tipine yönelttiği “<strong>dönüşüm eksikliği</strong>” eleştirisi, kültürel bir menü tartışmasından ziyade, <strong>hayatla imtihan çağrısıdır</strong>. Bununla birlikte Dücane Bey’in metaforu bende şöyle düşünsel bir açılım meydana getirdi:</p>
+
+    <p>Toplumumuzda modern yaşam formunu ailesinden görerek, yaşayarak alan bir seküler grup var. Bunların içinde de ne yazık ki davranışsal inceliğini topluma yabancılaşmaya çeviren bir kesim var. Bu kesime yazımız içinde “<strong>uç seküler kesim</strong>” diyelim ve öyle devam edelim.</p>
+
+    <p>Benim burada parantez açmak istediğim şey, bu “<strong>uç seküler kesim</strong>”in toplumun ana damarını oluşturan kültürel değerlere çok yabancı kalması; hatta bunu bir maharet ve övünç kaynağı olarak görüp kendi aralarında yarışmaları.</p>
+
+    <p>Dücane Bey’in metaforuna benzer bir yaklaşımla biz de yazımızda bu gruptaki insanlarımıza “<strong>suşi yiyenler</strong>” diyelim. (Burada “suşi” kavramının <strong>ironi</strong> vurgusuna dikkat çekmeme gerek yok sanırım, kavramın sembolik anlamına odaklanmayıp bağlamını kaçırmayalım lütfen.) “Suşi yiyenler”de “<strong>ince form</strong>” çok kıymetli; randevuya vaktinde gelmek, sesi alçak tutmak, sıraya saygı duymak, kaynakça göstermek, kurumsal yazışmayı düzgün yapmak… bunlar gerçek bir medeniyet dili. Fakat o dil bazen, halkın gündelik hayatıyla temasta <strong>“çeviri” yapmakta zorlanıyor</strong>.</p>
+
+    <p><strong>Bir düşünelim:</strong> Öğle arası kısa bir yürüyüş. Bir kafe vitrininde “single origin” kahveler, içeride kısık volümlü caz. Masalarda iyi eğitimli, gündemi takip eden insanlar. Memleket meseleleri konuşuluyor; söz dönüp dolaşıp “<strong>kamusal nezaket</strong>”e geliyor. O konuşanların çoğu, gerçekten nezaket ustası. Ama kafenin yan sokağında, iş çıkışı dolmuş kuyruğunda bekleyenlerin telaşı, aynı söz dağarcığında çok az yer buluyor. “Halk” teoride çok seviliyor; pratikte, halkın kalabalığının arasında dolaşmaya pek vakit kalmıyor. </p>
+
+    <p>Tarhana içenlerden beklediğimiz değişimi, suşi yiyenlerde de “<strong>ters istikamet</strong>”te beklemek yanlış olmasa gerek. Suşi ile tarhana metaforunun sınırını burada çizmek lazım sanki: <strong>Suşi de tarhana da</strong> oldukları konum itibarıyla kötü ya da erdemli değil. İkisinin de erdemi, oldukları yerde gerekli olan <strong>dönüşümü</strong> yapabilmelerinde. </p>
+
+    <p>Sayın Cündioğlu’nun “<strong>Düşünsel olgunlaşma, davranışsal inceliğe dönüşmüyorsa eksik kalır.</strong>” görüşüne ekleme yapalım ve diyelim ki: “<strong>Davranışsal incelik</strong>, içinde var olduğumuz toprakların rengini hiç tanımamaya varmamalı; o toprakların tozu loaferlar, espadriller, makosenler giyilmeden direkt ayaklarımıza bulaşmalı.”</p>
+
+    <p>Ünlü sosyolog <strong>Norbert Elias</strong>’ın belirttiği gibi, incelik sadece çatal-bıçak tutuşu değil; <strong>başkasının varlığını hesaba katma sanatı</strong>dır. </p>
+
+    <p>Dönüşüm, Alman sosyolog <strong>Max Weber</strong>’in işaret ettiği gibi büyük manifestolarla değil “<strong>günlük iş ahlâkı</strong>” ile başlar.</p>
+
+    <p><em>Namık Sabırlı.</em></p>
+
+    <hr />
+    <footer>© 2025 Namık Sabırlı</footer>
+  </div>
+</div>
+
+</body>
+</html>
